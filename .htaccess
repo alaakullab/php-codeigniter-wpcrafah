@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|robots\.txt|assets|uploads)
+RewriteRule ^(.*)$ /wpcrafah/index.php/$1 [L]
+
+
